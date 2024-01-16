@@ -1,0 +1,120 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(responsive.jpeg);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 25%;
+}
+
+.right {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 20%;
+  width: 10%;
+}
+
+.right .signup {
+  background-color: rgb(105, 73, 190);
+  color: white;
+  padding: 15px 34px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  border: rgb(105, 73, 190);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightt img {
+  height: 700px;
+  border-radius: 20px;
+}
+
+.rightt {
+  width: 50%;
+}
+
+.travel h1 {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.travel p {
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(192, 166, 167);
+}
+
+.started {
+  background-color: rgb(105, 73, 190);
+  color: white;
+  padding: 15px 34px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: rgb(105, 73, 190);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.demo {
+  background-color: rgba(104, 73, 190, 0);
+  color: rgb(5, 0, 0);
+  padding: 15px 0;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: rgba(104, 73, 190, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.travel #explore p {
+  background-color: rgba(252, 252, 254, 0.315);
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: rgb(227, 108, 156);
+}
+
+ion-icon {
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+.inputs {
+  display: flex;
+}
+
+.footer img {
+  width: 2000px;
+  margin: 0;
+  height: 120px;
+  margin-top: 70px;
+  border: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
