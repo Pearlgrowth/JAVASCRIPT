@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Calculator</title>
+</head>
+<body>
+    <h1>VANILLAS CALCULATOR</h1>
+    <label for="price" >Price</label>
+    <input type="text" id="price" >
+    <label for="Quantity" >Quantity</label>
+    <input type="text" id="quantity">
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+    <script>
+        function calculate(){
+            var pr = parseInt(document.getElementById("price").value);
+            var qt = parseInt(document.getElementById("quantity").value);
+            
+         var result = pr * qt
+         document.getElementById("result").innerHTML = 'The result is:' + result;
+        }
+         
+    </script>
+</body>
+</html>
